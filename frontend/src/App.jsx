@@ -15,7 +15,7 @@ const App = () => {
     <div className='mx-2 sm:mx-4 md:mx-8 lg:mx-16 xl:mx-24 2xl:mx-32'>
 
       <NavBar />
-      <Home />
+      {/* <Home /> */}
 
       <Routes>
         <Route path='/' element={<Home />} />

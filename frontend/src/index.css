@@ -15,3 +15,11 @@
 .white{
   color: white;
 }
+
+::-webkit-scrollbar{
+  @apply hidden
+}
+
+@theme{
+  --grid-template-columns-auto: repeat(auto-fill, minmax(200px, 1fr));
+}
