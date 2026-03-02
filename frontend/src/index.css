@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.active hr{
+  display: block;
+}
+
+:root {
+  --primary: #5f6FFF;
+  --secondary: #22c55e;
+  --dark: #1f2937;
+}
+.prim {
+  background-color: var(--primary);
+}
+.white{
+  color: white;
+}
